@@ -397,3 +397,28 @@ main {
 .toc a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 320px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .welcome h1 {
+        font-size: 1.1em;
+    }
+
+    .index-cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .index-cta a {
+        font-size: 0.7em;
+    }
+}
